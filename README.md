@@ -13,9 +13,10 @@ para el consumo de esta Api RestFull solamente utilizando Javascript y HTML5.
 
 # Despliegue
 ## 1. BACKEND
-- Ingresar a la carpeta backend y crear entorno virtual.
+- Ingresar a la carpeta backend, crear entorno virtual, activar entorno virtual e instalar las dependencias.
 ```python
 python -m venv venv
+source venv/bin/activate # Linux
 pip install -r requirements.txt
 ``` 
 - Correr la aplicación 
