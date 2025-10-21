@@ -10,3 +10,18 @@ para el consumo de esta Api RestFull solamente utilizando Javascript y HTML5.
 
 ![Diagrama del sistema](docs/diagrama.svg)
 
+
+# Despliegue
+## 1. BACKEND
+- Ingresar a la carpeta backend y crear entorno virtual.
+```python
+python -m venv venv
+pip install -r requirements.txt
+``` 
+- Correr la aplicación 
+```python
+python main.py
+``` 
+
+## 2. Frontend
+- En tu navegador de tu preferencia visualiza el archivo frontend/index.html para poder visualizar el consumo de la Api Restfull.
