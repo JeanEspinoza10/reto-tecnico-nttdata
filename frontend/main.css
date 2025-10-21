@@ -1,0 +1,114 @@
+  body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: #f6f8fb;
+    color: #222;
+    margin: 0;
+    padding: 2rem;
+  }
+
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+
+  form#userForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1.2rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    max-width: 500px;
+    margin: 0 auto 2rem auto;
+  }
+
+  label {
+    font-weight: 500;
+    color: #333;
+  }
+
+  input[type="number"] {
+    width: 80px;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+
+  input[type="number"]:focus {
+    border-color: #007bff;
+  }
+
+  button {
+    background: #007bff;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+  }
+
+  button:hover {
+    background: #0056b3;
+    transform: scale(1.03);
+  }
+
+  #user-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .user-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .user-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+  }
+
+  .user-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff20;
+  }
+
+  .user-card h3 {
+    margin: 0;
+    color: #007bff;
+    font-size: 1.1rem;
+  }
+
+  .user-card p {
+    margin: 3px 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  .user-card strong {
+    color: #222;
+  }
+
+  #user-table p {
+    text-align: center;
+    grid-column: 1 / -1;
+  }

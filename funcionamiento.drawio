@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="aUthldyr--BbLZt5c8Iq" name="Page-1">
+        <mxGraphModel dx="1532" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Backend - Flask" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Consumer de&amp;nbsp;&lt;br&gt;Api:&lt;div&gt;https://randomuser.me/documentation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-50" y="160" width="230" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=classic;html=1;entryX=0.988;entryY=0.758;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="220" as="sourcePoint"/>
+                        <mxPoint x="310" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Frontend&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;entryX=0.993;entryY=0.857;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="220" as="sourcePoint"/>
+                        <mxPoint x="600" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
